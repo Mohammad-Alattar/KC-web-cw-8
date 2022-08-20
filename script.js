@@ -23,7 +23,7 @@ function search() {
   let filteredGrades = grades.filter((x) => x == inputValue);
   console.log(filteredGrades)
   if (filteredGrades.length === 0) {
-    console.log("الدرجة الرقم غير موجود")
+    console.log("الدرجة غير موجوده")
   }
   
 }
